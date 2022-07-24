@@ -1,3 +1,11 @@
 name = "tg-notification-bot-cf"
 main = "src/index.js"
 compatibility_date = "2022-07-24"
+
+[vars]
+
+# The necessary secrets are:
+# - TOKEN
+# - TG_BOT_TOKEN
+# - TG_CHAT_ID
+# Run `wrangler secret put <NAME> <VALUE>` for each of these
